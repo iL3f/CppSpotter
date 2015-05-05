@@ -44,7 +44,7 @@ namespace
                        std::vector<std::string>& args) {
             for (auto argument : args)
             {
-                //llvm::errs() << "CppSpotter arg = " << argument << "\n";
+                llvm::errs() << "CppSpotter arg = " << argument << "\n";
             }
             return true;
         }
