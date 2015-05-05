@@ -18,7 +18,9 @@ else if (a==0)
 {...}
 ```
 4) Перепутаны 2й и 3й аргументы memset
-`memset(buf,sizeof(buf),0)`
+```
+memset(buf,sizeof(buf),0)
+```
 5) не верный размер для заполнения памяти int или short
 ```
 int arr[10];
