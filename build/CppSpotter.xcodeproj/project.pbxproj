@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0F4E041AF7D00400DF8131 /* MatchMalloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E031AF7D00400DF8131 /* MatchMalloc.cpp */; };
+		EB0F4E071AF7D4D100DF8131 /* MatchNew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E061AF7D4D100DF8131 /* MatchNew.cpp */; };
+		EB0F4E0A1AF7F4AD00DF8131 /* MatchIfStrcmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E091AF7F4AD00DF8131 /* MatchIfStrcmp.cpp */; };
+		EB0F4E0D1AF7F98100DF8131 /* MatchEqualArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E0C1AF7F98100DF8131 /* MatchEqualArgs.cpp */; };
+		EB0F4E101AF8002000DF8131 /* MatchSizeof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E0F1AF8002000DF8131 /* MatchSizeof.cpp */; };
+		EB0F4E131AF8079800DF8131 /* MatchStrlen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E121AF8079800DF8131 /* MatchStrlen.cpp */; };
+		EB0F4E161AF812E000DF8131 /* MatchSizeofMult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E151AF812E000DF8131 /* MatchSizeofMult.cpp */; };
+		EB1D9E8A1AEEE07E00414917 /* CppSpotter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB1D9E891AEEE07E00414917 /* CppSpotter.cpp */; };
+		EB1D9E8D1AEEE1D400414917 /* MatchEqualCondition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB1D9E8B1AEEE1D400414917 /* MatchEqualCondition.cpp */; };
+		EBC8D23D1AF17B5C00A7275C /* MatchEqualBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBC8D23C1AF17B5C00A7275C /* MatchEqualBinary.cpp */; };
+		EBC8D2411AF2AFF900A7275C /* MatchEqualCompoundStmt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBC8D2401AF2AFF900A7275C /* MatchEqualCompoundStmt.cpp */; };
+		EBC8D2441AF2C27300A7275C /* MatchMemset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBC8D2431AF2C27300A7275C /* MatchMemset.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F0E5A21F6B1448AAC3A2868 /* CppSpotter.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = CppSpotter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0F4E021AF7CB1A00DF8131 /* MatchMalloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchMalloc.h; path = include/MatchMalloc.h; sourceTree = "<group>"; };
+		EB0F4E031AF7D00400DF8131 /* MatchMalloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchMalloc.cpp; path = src/MatchMalloc.cpp; sourceTree = "<group>"; };
+		EB0F4E051AF7D48D00DF8131 /* MatchNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchNew.h; path = include/MatchNew.h; sourceTree = "<group>"; };
+		EB0F4E061AF7D4D100DF8131 /* MatchNew.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchNew.cpp; path = src/MatchNew.cpp; sourceTree = "<group>"; };
+		EB0F4E081AF7F40400DF8131 /* MatchIfStrcmp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchIfStrcmp.h; path = include/MatchIfStrcmp.h; sourceTree = "<group>"; };
+		EB0F4E091AF7F4AD00DF8131 /* MatchIfStrcmp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchIfStrcmp.cpp; path = src/MatchIfStrcmp.cpp; sourceTree = "<group>"; };
+		EB0F4E0B1AF7F82E00DF8131 /* MatchEqualArgs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchEqualArgs.h; path = include/MatchEqualArgs.h; sourceTree = "<group>"; };
+		EB0F4E0C1AF7F98100DF8131 /* MatchEqualArgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchEqualArgs.cpp; path = src/MatchEqualArgs.cpp; sourceTree = "<group>"; };
+		EB0F4E0E1AF7FF3000DF8131 /* MatchSizeof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchSizeof.h; path = include/MatchSizeof.h; sourceTree = "<group>"; };
+		EB0F4E0F1AF8002000DF8131 /* MatchSizeof.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchSizeof.cpp; path = src/MatchSizeof.cpp; sourceTree = "<group>"; };
+		EB0F4E111AF8072C00DF8131 /* MatchStrlen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchStrlen.h; path = include/MatchStrlen.h; sourceTree = "<group>"; };
+		EB0F4E121AF8079800DF8131 /* MatchStrlen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchStrlen.cpp; path = src/MatchStrlen.cpp; sourceTree = "<group>"; };
+		EB0F4E141AF8127800DF8131 /* MatchSizeofMult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchSizeofMult.h; path = include/MatchSizeofMult.h; sourceTree = "<group>"; };
+		EB0F4E151AF812E000DF8131 /* MatchSizeofMult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchSizeofMult.cpp; path = src/MatchSizeofMult.cpp; sourceTree = "<group>"; };
+		EB1D9E891AEEE07E00414917 /* CppSpotter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CppSpotter.cpp; path = src/CppSpotter.cpp; sourceTree = "<group>"; };
+		EB1D9E8B1AEEE1D400414917 /* MatchEqualCondition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchEqualCondition.cpp; path = src/MatchEqualCondition.cpp; sourceTree = "<group>"; };
+		EB1D9E8F1AEEE37600414917 /* MatchEqualCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchEqualCondition.h; path = include/MatchEqualCondition.h; sourceTree = "<group>"; };
+		EB1D9E901AEEE37600414917 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = include/Utility.h; sourceTree = "<group>"; };
+		EB1D9E941AEF8A1F00414917 /* BasePrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BasePrinter.h; path = include/BasePrinter.h; sourceTree = "<group>"; };
+		EB1D9E951AEF978500414917 /* AllMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AllMatchers.h; path = include/AllMatchers.h; sourceTree = "<group>"; };
+		EBC8D23A1AF17B0700A7275C /* MatchEqualBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchEqualBinary.h; path = include/MatchEqualBinary.h; sourceTree = "<group>"; };
+		EBC8D23C1AF17B5C00A7275C /* MatchEqualBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchEqualBinary.cpp; path = src/MatchEqualBinary.cpp; sourceTree = "<group>"; };
+		EBC8D23F1AF2AFBD00A7275C /* MatchEqualCompoundStmt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchEqualCompoundStmt.h; path = include/MatchEqualCompoundStmt.h; sourceTree = "<group>"; };
+		EBC8D2401AF2AFF900A7275C /* MatchEqualCompoundStmt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchEqualCompoundStmt.cpp; path = src/MatchEqualCompoundStmt.cpp; sourceTree = "<group>"; };
+		EBC8D2421AF2C21000A7275C /* MatchMemset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchMemset.h; path = include/MatchMemset.h; sourceTree = "<group>"; };
+		EBC8D2431AF2C27300A7275C /* MatchMemset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchMemset.cpp; path = src/MatchMemset.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		35335DB3639B4AEDAA98E77B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F0E5A21F6B1448AAC3A2868 /* CppSpotter.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5075F0084CA2498E9E222CA8 /* CppSpotter */ = {
+			isa = PBXGroup;
+			children = (
+				EB1D9E881AEEE05A00414917 /* Include */,
+				EB931286701144FC8950A50E /* Source Files */,
+			);
+			name = CppSpotter;
+			sourceTree = "<group>";
+		};
+		6A8E8D322B4B42899E3EDCB4 = {
+			isa = PBXGroup;
+			children = (
+				AA46F49EB30F48DD90488567 /* Sources */,
+				89A405150BC144FD8F0025CD /* Resources */,
+				35335DB3639B4AEDAA98E77B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A405150BC144FD8F0025CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA46F49EB30F48DD90488567 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5075F0084CA2498E9E222CA8 /* CppSpotter */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		EB1D9E881AEEE05A00414917 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				EBC8D23B1AF17B1800A7275C /* Matchers */,
+				EB1D9E901AEEE37600414917 /* Utility.h */,
+				EB1D9E941AEF8A1F00414917 /* BasePrinter.h */,
+				EB1D9E951AEF978500414917 /* AllMatchers.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		EB931286701144FC8950A50E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC8D23E1AF17B9F00A7275C /* Matchers */,
+				EB1D9E891AEEE07E00414917 /* CppSpotter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EBC8D23B1AF17B1800A7275C /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				EBC8D23A1AF17B0700A7275C /* MatchEqualBinary.h */,
+				EB1D9E8F1AEEE37600414917 /* MatchEqualCondition.h */,
+				EBC8D23F1AF2AFBD00A7275C /* MatchEqualCompoundStmt.h */,
+				EBC8D2421AF2C21000A7275C /* MatchMemset.h */,
+				EB0F4E021AF7CB1A00DF8131 /* MatchMalloc.h */,
+				EB0F4E051AF7D48D00DF8131 /* MatchNew.h */,
+				EB0F4E081AF7F40400DF8131 /* MatchIfStrcmp.h */,
+				EB0F4E0B1AF7F82E00DF8131 /* MatchEqualArgs.h */,
+				EB0F4E0E1AF7FF3000DF8131 /* MatchSizeof.h */,
+				EB0F4E111AF8072C00DF8131 /* MatchStrlen.h */,
+				EB0F4E141AF8127800DF8131 /* MatchSizeofMult.h */,
+			);
+			name = Matchers;
+			sourceTree = "<group>";
+		};
+		EBC8D23E1AF17B9F00A7275C /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				EBC8D23C1AF17B5C00A7275C /* MatchEqualBinary.cpp */,
+				EB1D9E8B1AEEE1D400414917 /* MatchEqualCondition.cpp */,
+				EBC8D2401AF2AFF900A7275C /* MatchEqualCompoundStmt.cpp */,
+				EBC8D2431AF2C27300A7275C /* MatchMemset.cpp */,
+				EB0F4E031AF7D00400DF8131 /* MatchMalloc.cpp */,
+				EB0F4E061AF7D4D100DF8131 /* MatchNew.cpp */,
+				EB0F4E091AF7F4AD00DF8131 /* MatchIfStrcmp.cpp */,
+				EB0F4E0C1AF7F98100DF8131 /* MatchEqualArgs.cpp */,
+				EB0F4E0F1AF8002000DF8131 /* MatchSizeof.cpp */,
+				EB0F4E121AF8079800DF8131 /* MatchStrlen.cpp */,
+				EB0F4E151AF812E000DF8131 /* MatchSizeofMult.cpp */,
+			);
+			name = Matchers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		412AF5DAD5844B9F9D430B4B /* CppSpotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3FB1A6A2D345E8ABCFC36A /* Build configuration list for PBXNativeTarget "CppSpotter" */;
+			buildPhases = (
+				69A6DAD38E944504A2348A65 /* Sources */,
+				F526FF82F2DD444EAE228E13 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CppSpotter;
+			productName = CppSpotter;
+			productReference = 2F0E5A21F6B1448AAC3A2868 /* CppSpotter.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3023BE68879246779414A170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 39372E3B90104FE6B59524B1 /* Build configuration list for PBXProject "CppSpotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A8E8D322B4B42899E3EDCB4;
+			projectDirPath = ..;
+			projectRoot = "";
+			targets = (
+				412AF5DAD5844B9F9D430B4B /* CppSpotter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F526FF82F2DD444EAE228E13 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Kolya/documents/llvm/CppSpotter/build -f /Users/Kolya/documents/llvm/CppSpotter/build/CMakeScripts/CppSpotter_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A6DAD38E944504A2348A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0F4E131AF8079800DF8131 /* MatchStrlen.cpp in Sources */,
+				EBC8D23D1AF17B5C00A7275C /* MatchEqualBinary.cpp in Sources */,
+				EBC8D2411AF2AFF900A7275C /* MatchEqualCompoundStmt.cpp in Sources */,
+				EB1D9E8D1AEEE1D400414917 /* MatchEqualCondition.cpp in Sources */,
+				EBC8D2441AF2C27300A7275C /* MatchMemset.cpp in Sources */,
+				EB0F4E071AF7D4D100DF8131 /* MatchNew.cpp in Sources */,
+				EB0F4E0D1AF7F98100DF8131 /* MatchEqualArgs.cpp in Sources */,
+				EB1D9E8A1AEEE07E00414917 /* CppSpotter.cpp in Sources */,
+				EB0F4E041AF7D00400DF8131 /* MatchMalloc.cpp in Sources */,
+				EB0F4E0A1AF7F4AD00DF8131 /* MatchIfStrcmp.cpp in Sources */,
+				EB0F4E101AF8002000DF8131 /* MatchSizeof.cpp in Sources */,
+				EB0F4E161AF812E000DF8131 /* MatchSizeofMult.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08069490D6A44DC8A3C1C1DA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/Kolya/documents/llvm/CppSpotter/build/build;
+			};
+			name = MinSizeRel;
+		};
+		0C61F53852AD45A59CADBFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/Kolya/documents/llvm/CppSpotter/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					CppSpotter_EXPORTS,
+					__STDC_LIMIT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					_GNU_SOURCE,
+					HAVE_CLANG_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/Kolya/Documents/llvm/llvm/include,
+					/Users/Kolya/Documents/llvm/llvm/tools/clang/include,
+					/Users/Kolya/Documents/llvm/llvm_build/include,
+					/Users/Kolya/Documents/llvm/llvm_build/tools/clang/include,
+					/Users/Kolya/Documents/llvm/CppSpotter/include,
+				);
+				INSTALL_PATH = /Users/Kolya/documents/llvm/CppSpotter/build/lib/Debug;
+				LD_RUNPATH_SEARCH_PATHS = /Users/Kolya/Documents/llvm/llvm_build/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/Kolya/Documents/llvm/llvm_build/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/Kolya/Documents/llvm/llvm_build/lib,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"-fno-common",
+					"-Woverloaded-virtual",
+					"-Wcast-qual",
+					"-fno-strict-aliasing",
+					"-pedantic",
+					"-Wno-long-long",
+					"-Wall",
+					"-Wno-unused-parameter",
+					"-Wwrite-strings",
+					"-fno-exceptions",
+					"-std=c++11",
+					"-fno-rtti",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-lclang",
+					"-lclangFrontend",
+					"-lclangAST",
+					"-lclangASTMatchers",
+					"-lclangAnalysis",
+					"-lclangBasic",
+					"-lclangCodeGen",
+					"-lclangDriver",
+					"-lclangFrontendTool",
+					"-lclangLex",
+					"-lclangParse",
+					"-lclangSema",
+					"-lclangEdit",
+					"-lclangSerialization",
+					"-lclangStaticAnalyzerCheckers",
+					"-lclangStaticAnalyzerCore",
+					"-lclangStaticAnalyzerFrontend",
+					"-lLLVMJIT",
+					"-lLLVMX86CodeGen",
+					"-lLLVMX86AsmParser",
+					"-lLLVMX86Disassembler",
+					"-lLLVMExecutionEngine",
+					"-lLLVMAsmPrinter",
+					"-lLLVMSelectionDAG",
+					"-lLLVMX86AsmPrinter",
+					"-lLLVMX86Info",
+					"-lLLVMMCParser",
+					"-lLLVMCodeGen",
+					"-lLLVMX86Utils",
+					"-lLLVMScalarOpts",
+					"-lLLVMInstCombine",
+					"-lLLVMTransformUtils",
+					"-lLLVMipa",
+					"-lLLVMAnalysis",
+					"-lLLVMTarget",
+					"-lLLVMCore",
+					"-lLLVMMC",
+					"-lLLVMSupport",
+					"-lLLVMBitReader",
+					"-lLLVMOption",
+					"-lpthread",
+					"-lcurses",
+					"-lz",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CppSpotter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Kolya/documents/llvm/CppSpotter/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		1EDA029C427C40AFB22920B7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/Kolya/documents/llvm/CppSpotter/build/lib/RelWithDebInfo;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					CppSpotter_EXPORTS,
+					__STDC_LIMIT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					_GNU_SOURCE,
+					HAVE_CLANG_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/Kolya/Documents/llvm/llvm/include,
+					/Users/Kolya/Documents/llvm/llvm/tools/clang/include,
+					/Users/Kolya/Documents/llvm/llvm_build/include,
+					/Users/Kolya/Documents/llvm/llvm_build/tools/clang/include,
+					/Users/Kolya/Documents/llvm/CppSpotter/include,
+				);
+				INSTALL_PATH = /Users/Kolya/documents/llvm/CppSpotter/build/lib/RelWithDebInfo;
+				LD_RUNPATH_SEARCH_PATHS = /Users/Kolya/Documents/llvm/llvm_build/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/Kolya/Documents/llvm/llvm_build/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/Kolya/Documents/llvm/llvm_build/lib,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"
+",
+					"-fPIC\n",
+					"-fno-common\n",
+					"-Woverloaded-virtual\n",
+					"-Wcast-qual\n",
+					"-fno-strict-aliasing\n",
+					"-pedantic\n",
+					"-Wno-long-long\n",
+					"-Wall\n",
+					"-Wno-unused-parameter\n",
+					"-Wwrite-strings\n",
+					"-fno-exceptions",
+					"
+",
+					"-std=c++11\n",
+					"-fno-rtti",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-lclang",
+					"-lclangFrontend",
+					"-lclangAST",
+					"-lclangASTMatchers",
+					"-lclangAnalysis",
+					"-lclangBasic",
+					"-lclangCodeGen",
+					"-lclangDriver",
+					"-lclangFrontendTool",
+					"-lclangLex",
+					"-lclangParse",
+					"-lclangSema",
+					"-lclangEdit",
+					"-lclangSerialization",
+					"-lclangStaticAnalyzerCheckers",
+					"-lclangStaticAnalyzerCore",
+					"-lclangStaticAnalyzerFrontend",
+					"-lLLVMJIT",
+					"-lLLVMX86CodeGen",
+					"-lLLVMX86AsmParser",
+					"-lLLVMX86Disassembler",
+					"-lLLVMExecutionEngine",
+					"-lLLVMAsmPrinter",
+					"-lLLVMSelectionDAG",
+					"-lLLVMX86AsmPrinter",
+					"-lLLVMX86Info",
+					"-lLLVMMCParser",
+					"-lLLVMCodeGen",
+					"-lLLVMX86Utils",
+					"-lLLVMScalarOpts",
+					"-lLLVMInstCombine",
+					"-lLLVMTransformUtils",
+					"-lLLVMipa",
+					"-lLLVMAnalysis",
+					"-lLLVMTarget",
+					"-lLLVMCore",
+					"-lLLVMMC",
+					"-lLLVMSupport",
+					"-lLLVMBitReader",
+					"-lLLVMOption",
+					"-lpthread",
+					"-lcurses",
+					"-lz",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CppSpotter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Kolya/documents/llvm/CppSpotter/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		871BB0B4EA18405E9078B437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/Kolya/documents/llvm/CppSpotter/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					CppSpotter_EXPORTS,
+					__STDC_LIMIT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					_GNU_SOURCE,
+					HAVE_CLANG_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/Kolya/Documents/llvm/llvm/include,
+					/Users/Kolya/Documents/llvm/llvm/tools/clang/include,
+					/Users/Kolya/Documents/llvm/llvm_build/include,
+					/Users/Kolya/Documents/llvm/llvm_build/tools/clang/include,
+					/Users/Kolya/Documents/llvm/CppSpotter/include,
+				);
+				INSTALL_PATH = /Users/Kolya/documents/llvm/CppSpotter/build/lib/Release;
+				LD_RUNPATH_SEARCH_PATHS = /Users/Kolya/Documents/llvm/llvm_build/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/Kolya/Documents/llvm/llvm_build/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/Kolya/Documents/llvm/llvm_build/lib,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"-fno-common",
+					"-Woverloaded-virtual",
+					"-Wcast-qual",
+					"-fno-strict-aliasing",
+					"-pedantic",
+					"-Wno-long-long",
+					"-Wall",
+					"-Wno-unused-parameter",
+					"-Wwrite-strings",
+					"-fno-exceptions",
+					"-std=c++11",
+					"-fno-rtti",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-lclang",
+					"-lclangFrontend",
+					"-lclangAST",
+					"-lclangASTMatchers",
+					"-lclangAnalysis",
+					"-lclangBasic",
+					"-lclangCodeGen",
+					"-lclangDriver",
+					"-lclangFrontendTool",
+					"-lclangLex",
+					"-lclangParse",
+					"-lclangSema",
+					"-lclangEdit",
+					"-lclangSerialization",
+					"-lclangStaticAnalyzerCheckers",
+					"-lclangStaticAnalyzerCore",
+					"-lclangStaticAnalyzerFrontend",
+					"-lLLVMJIT",
+					"-lLLVMX86CodeGen",
+					"-lLLVMX86AsmParser",
+					"-lLLVMX86Disassembler",
+					"-lLLVMExecutionEngine",
+					"-lLLVMAsmPrinter",
+					"-lLLVMSelectionDAG",
+					"-lLLVMX86AsmPrinter",
+					"-lLLVMX86Info",
+					"-lLLVMMCParser",
+					"-lLLVMCodeGen",
+					"-lLLVMX86Utils",
+					"-lLLVMScalarOpts",
+					"-lLLVMInstCombine",
+					"-lLLVMTransformUtils",
+					"-lLLVMipa",
+					"-lLLVMAnalysis",
+					"-lLLVMTarget",
+					"-lLLVMCore",
+					"-lLLVMMC",
+					"-lLLVMSupport",
+					"-lLLVMBitReader",
+					"-lLLVMOption",
+					"-lpthread",
+					"-lcurses",
+					"-lz",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CppSpotter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Kolya/documents/llvm/CppSpotter/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		87EFB74E5EF14C58BFBEBD7E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/Kolya/documents/llvm/CppSpotter/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		AA07473EAF23400CA3A27966 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/Kolya/documents/llvm/CppSpotter/build/lib/MinSizeRel;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					CppSpotter_EXPORTS,
+					__STDC_LIMIT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					_GNU_SOURCE,
+					HAVE_CLANG_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/Kolya/Documents/llvm/llvm/include,
+					/Users/Kolya/Documents/llvm/llvm/tools/clang/include,
+					/Users/Kolya/Documents/llvm/llvm_build/include,
+					/Users/Kolya/Documents/llvm/llvm_build/tools/clang/include,
+					/Users/Kolya/Documents/llvm/CppSpotter/include,
+				);
+				INSTALL_PATH = /Users/Kolya/documents/llvm/CppSpotter/build/lib/MinSizeRel;
+				LD_RUNPATH_SEARCH_PATHS = /Users/Kolya/Documents/llvm/llvm_build/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/Kolya/Documents/llvm/llvm_build/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/Kolya/Documents/llvm/llvm_build/lib,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"
+",
+					"-fPIC\n",
+					"-fno-common\n",
+					"-Woverloaded-virtual\n",
+					"-Wcast-qual\n",
+					"-fno-strict-aliasing\n",
+					"-pedantic\n",
+					"-Wno-long-long\n",
+					"-Wall\n",
+					"-Wno-unused-parameter\n",
+					"-Wwrite-strings\n",
+					"-fno-exceptions",
+					"
+",
+					"-std=c++11\n",
+					"-fno-rtti",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-lclang",
+					"-lclangFrontend",
+					"-lclangAST",
+					"-lclangASTMatchers",
+					"-lclangAnalysis",
+					"-lclangBasic",
+					"-lclangCodeGen",
+					"-lclangDriver",
+					"-lclangFrontendTool",
+					"-lclangLex",
+					"-lclangParse",
+					"-lclangSema",
+					"-lclangEdit",
+					"-lclangSerialization",
+					"-lclangStaticAnalyzerCheckers",
+					"-lclangStaticAnalyzerCore",
+					"-lclangStaticAnalyzerFrontend",
+					"-lLLVMJIT",
+					"-lLLVMX86CodeGen",
+					"-lLLVMX86AsmParser",
+					"-lLLVMX86Disassembler",
+					"-lLLVMExecutionEngine",
+					"-lLLVMAsmPrinter",
+					"-lLLVMSelectionDAG",
+					"-lLLVMX86AsmPrinter",
+					"-lLLVMX86Info",
+					"-lLLVMMCParser",
+					"-lLLVMCodeGen",
+					"-lLLVMX86Utils",
+					"-lLLVMScalarOpts",
+					"-lLLVMInstCombine",
+					"-lLLVMTransformUtils",
+					"-lLLVMipa",
+					"-lLLVMAnalysis",
+					"-lLLVMTarget",
+					"-lLLVMCore",
+					"-lLLVMMC",
+					"-lLLVMSupport",
+					"-lLLVMBitReader",
+					"-lLLVMOption",
+					"-lpthread",
+					"-lcurses",
+					"-lz",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CppSpotter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Kolya/documents/llvm/CppSpotter/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		AAF0E28DF8A44CD08C1B06FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/Kolya/documents/llvm/CppSpotter/build/build;
+			};
+			name = Release;
+		};
+		FF0C0EA383AC4F589AF3C567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/Kolya/documents/llvm/CppSpotter/build/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39372E3B90104FE6B59524B1 /* Build configuration list for PBXProject "CppSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0C0EA383AC4F589AF3C567 /* Debug */,
+				AAF0E28DF8A44CD08C1B06FB /* Release */,
+				08069490D6A44DC8A3C1C1DA /* MinSizeRel */,
+				87EFB74E5EF14C58BFBEBD7E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D3FB1A6A2D345E8ABCFC36A /* Build configuration list for PBXNativeTarget "CppSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C61F53852AD45A59CADBFAD /* Debug */,
+				871BB0B4EA18405E9078B437 /* Release */,
+				AA07473EAF23400CA3A27966 /* MinSizeRel */,
+				1EDA029C427C40AFB22920B7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3023BE68879246779414A170 /* Project object */;
+}
