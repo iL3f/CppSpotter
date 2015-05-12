@@ -1,0 +1,30 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Настройка параметров документа
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Быть посвободнее при склеивании слов
+\sloppy
+
+% Настройка листингов
+\renewcommand{\lstlistingname}{Листинг}
+\lstdefinestyle{java}{
+  extendedchars={true},
+  inputencoding={utf8},
+  language={Java},
+  basicstyle={\ttfamily \scriptsize},
+  keywordstyle={\rmfamily \bfseries},
+  commentstyle={\rmfamily \itshape},
+  tabsize={2},
+  numbers={left},
+  frame={single},
+  showstringspaces={false},
+  breaklines={true},
+}
+\input{listings_cyr_hack}
+
+% Настройка стиля оглавления
+% \renewcommand{\tocchapterfont}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
