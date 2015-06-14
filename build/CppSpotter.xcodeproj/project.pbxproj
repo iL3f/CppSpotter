@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB0F4E041AF7D00400DF8131 /* MatchMalloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E031AF7D00400DF8131 /* MatchMalloc.cpp */; };
+		EB0F4E041AF7D00400DF8131 /* MatchAllocStrlen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E031AF7D00400DF8131 /* MatchAllocStrlen.cpp */; };
 		EB0F4E071AF7D4D100DF8131 /* MatchNew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E061AF7D4D100DF8131 /* MatchNew.cpp */; };
 		EB0F4E0A1AF7F4AD00DF8131 /* MatchIfStrcmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E091AF7F4AD00DF8131 /* MatchIfStrcmp.cpp */; };
 		EB0F4E0D1AF7F98100DF8131 /* MatchEqualArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E0C1AF7F98100DF8131 /* MatchEqualArgs.cpp */; };
@@ -16,6 +16,7 @@
 		EB0F4E161AF812E000DF8131 /* MatchSizeofMult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB0F4E151AF812E000DF8131 /* MatchSizeofMult.cpp */; };
 		EB1D9E8A1AEEE07E00414917 /* CppSpotter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB1D9E891AEEE07E00414917 /* CppSpotter.cpp */; };
 		EB1D9E8D1AEEE1D400414917 /* MatchEqualCondition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB1D9E8B1AEEE1D400414917 /* MatchEqualCondition.cpp */; };
+		EB3EB9881B2D8FE2000EC120 /* MatchPointerComparison.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3EB9871B2D8FE2000EC120 /* MatchPointerComparison.cpp */; };
 		EBC8D23D1AF17B5C00A7275C /* MatchEqualBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBC8D23C1AF17B5C00A7275C /* MatchEqualBinary.cpp */; };
 		EBC8D2411AF2AFF900A7275C /* MatchEqualCompoundStmt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBC8D2401AF2AFF900A7275C /* MatchEqualCompoundStmt.cpp */; };
 		EBC8D2441AF2C27300A7275C /* MatchMemset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EBC8D2431AF2C27300A7275C /* MatchMemset.cpp */; };
@@ -23,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		2F0E5A21F6B1448AAC3A2868 /* CppSpotter.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = CppSpotter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB0F4E021AF7CB1A00DF8131 /* MatchMalloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchMalloc.h; path = include/MatchMalloc.h; sourceTree = "<group>"; };
-		EB0F4E031AF7D00400DF8131 /* MatchMalloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchMalloc.cpp; path = src/MatchMalloc.cpp; sourceTree = "<group>"; };
+		EB0F4E021AF7CB1A00DF8131 /* MatchAllocStrlen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchAllocStrlen.h; path = include/MatchAllocStrlen.h; sourceTree = "<group>"; };
+		EB0F4E031AF7D00400DF8131 /* MatchAllocStrlen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchAllocStrlen.cpp; path = src/MatchAllocStrlen.cpp; sourceTree = "<group>"; };
 		EB0F4E051AF7D48D00DF8131 /* MatchNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchNew.h; path = include/MatchNew.h; sourceTree = "<group>"; };
 		EB0F4E061AF7D4D100DF8131 /* MatchNew.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchNew.cpp; path = src/MatchNew.cpp; sourceTree = "<group>"; };
 		EB0F4E081AF7F40400DF8131 /* MatchIfStrcmp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchIfStrcmp.h; path = include/MatchIfStrcmp.h; sourceTree = "<group>"; };
@@ -43,6 +44,8 @@
 		EB1D9E901AEEE37600414917 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = include/Utility.h; sourceTree = "<group>"; };
 		EB1D9E941AEF8A1F00414917 /* BasePrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BasePrinter.h; path = include/BasePrinter.h; sourceTree = "<group>"; };
 		EB1D9E951AEF978500414917 /* AllMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AllMatchers.h; path = include/AllMatchers.h; sourceTree = "<group>"; };
+		EB3EB9861B2D8F84000EC120 /* MatchPointerComparison.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchPointerComparison.h; path = include/MatchPointerComparison.h; sourceTree = "<group>"; };
+		EB3EB9871B2D8FE2000EC120 /* MatchPointerComparison.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchPointerComparison.cpp; path = src/MatchPointerComparison.cpp; sourceTree = "<group>"; };
 		EBC8D23A1AF17B0700A7275C /* MatchEqualBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchEqualBinary.h; path = include/MatchEqualBinary.h; sourceTree = "<group>"; };
 		EBC8D23C1AF17B5C00A7275C /* MatchEqualBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatchEqualBinary.cpp; path = src/MatchEqualBinary.cpp; sourceTree = "<group>"; };
 		EBC8D23F1AF2AFBD00A7275C /* MatchEqualCompoundStmt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatchEqualCompoundStmt.h; path = include/MatchEqualCompoundStmt.h; sourceTree = "<group>"; };
@@ -120,13 +123,14 @@
 				EB1D9E8F1AEEE37600414917 /* MatchEqualCondition.h */,
 				EBC8D23F1AF2AFBD00A7275C /* MatchEqualCompoundStmt.h */,
 				EBC8D2421AF2C21000A7275C /* MatchMemset.h */,
-				EB0F4E021AF7CB1A00DF8131 /* MatchMalloc.h */,
+				EB0F4E021AF7CB1A00DF8131 /* MatchAllocStrlen.h */,
 				EB0F4E051AF7D48D00DF8131 /* MatchNew.h */,
 				EB0F4E081AF7F40400DF8131 /* MatchIfStrcmp.h */,
 				EB0F4E0B1AF7F82E00DF8131 /* MatchEqualArgs.h */,
 				EB0F4E0E1AF7FF3000DF8131 /* MatchSizeof.h */,
 				EB0F4E111AF8072C00DF8131 /* MatchStrlen.h */,
 				EB0F4E141AF8127800DF8131 /* MatchSizeofMult.h */,
+				EB3EB9861B2D8F84000EC120 /* MatchPointerComparison.h */,
 			);
 			name = Matchers;
 			sourceTree = "<group>";
@@ -138,13 +142,14 @@
 				EB1D9E8B1AEEE1D400414917 /* MatchEqualCondition.cpp */,
 				EBC8D2401AF2AFF900A7275C /* MatchEqualCompoundStmt.cpp */,
 				EBC8D2431AF2C27300A7275C /* MatchMemset.cpp */,
-				EB0F4E031AF7D00400DF8131 /* MatchMalloc.cpp */,
+				EB0F4E031AF7D00400DF8131 /* MatchAllocStrlen.cpp */,
 				EB0F4E061AF7D4D100DF8131 /* MatchNew.cpp */,
 				EB0F4E091AF7F4AD00DF8131 /* MatchIfStrcmp.cpp */,
 				EB0F4E0C1AF7F98100DF8131 /* MatchEqualArgs.cpp */,
 				EB0F4E0F1AF8002000DF8131 /* MatchSizeof.cpp */,
 				EB0F4E121AF8079800DF8131 /* MatchStrlen.cpp */,
 				EB0F4E151AF812E000DF8131 /* MatchSizeofMult.cpp */,
+				EB3EB9871B2D8FE2000EC120 /* MatchPointerComparison.cpp */,
 			);
 			name = Matchers;
 			sourceTree = "<group>";
@@ -220,8 +225,9 @@
 				EB0F4E071AF7D4D100DF8131 /* MatchNew.cpp in Sources */,
 				EB0F4E0D1AF7F98100DF8131 /* MatchEqualArgs.cpp in Sources */,
 				EB1D9E8A1AEEE07E00414917 /* CppSpotter.cpp in Sources */,
-				EB0F4E041AF7D00400DF8131 /* MatchMalloc.cpp in Sources */,
+				EB0F4E041AF7D00400DF8131 /* MatchAllocStrlen.cpp in Sources */,
 				EB0F4E0A1AF7F4AD00DF8131 /* MatchIfStrcmp.cpp in Sources */,
+				EB3EB9881B2D8FE2000EC120 /* MatchPointerComparison.cpp in Sources */,
 				EB0F4E101AF8002000DF8131 /* MatchSizeof.cpp in Sources */,
 				EB0F4E161AF812E000DF8131 /* MatchSizeofMult.cpp in Sources */,
 			);

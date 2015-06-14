@@ -29,13 +29,14 @@ namespace
             addPrinter(new EqualBinaryPrinter);
             addPrinter(new EqualCompoundStmtPrinter);
             addPrinter(new MemsetPrinter);
-            addPrinter(new MallocPrinter);
+            addPrinter(new AllocStrlenPrinter);
             addPrinter(new NewPrinter);
             addPrinter(new IfStrCmpPrinter);
             addPrinter(new CRTEqualArgsPrinter);
             addPrinter(new SizeofPrinter);
             addPrinter(new StrlenOnePrinter);
             addPrinter(new SizeofMultPrinter);
+            addPrinter(new PtrCmpPrinter);
             
             return finder.newASTConsumer();
         }
