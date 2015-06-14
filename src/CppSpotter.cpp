@@ -24,20 +24,6 @@ namespace
         virtual clang::ASTConsumer *CreateASTConsumer(CompilerInstance &Compiler,
                                                       llvm::StringRef InFile)
         {
-         
-            addPrinter(new EqualConditionPrinter);
-            addPrinter(new EqualBinaryPrinter);
-            addPrinter(new EqualCompoundStmtPrinter);
-            addPrinter(new MemsetPrinter);
-            addPrinter(new AllocStrlenPrinter);
-            addPrinter(new NewPrinter);
-            addPrinter(new IfStrCmpPrinter);
-            addPrinter(new CRTEqualArgsPrinter);
-            addPrinter(new SizeofPrinter);
-            addPrinter(new StrlenOnePrinter);
-            addPrinter(new SizeofMultPrinter);
-            addPrinter(new PtrCmpPrinter);
-            
             return finder.newASTConsumer();
         }
         
@@ -45,11 +31,81 @@ namespace
                        std::vector<std::string>& args) {
             for (auto argument : args)
             {
-                llvm::errs() << "CppSpotter arg = " << argument << "\n";
+                if (argument == "-eqCond")
+                {
+                    addPrinter(new EqualConditionPrinter);
+                }
+                else if (argument == "-eqBin")
+                {
+                    addPrinter(new EqualBinaryPrinter);
+                }
+                else if (argument == "-eqStmt")
+                {
+                    addPrinter(new EqualCompoundStmtPrinter);
+                }
+                else if (argument == "-memset")
+                {
+                    addPrinter(new MemsetPrinter);
+                }
+                else if (argument == "-allocStr")
+                {
+                    addPrinter(new AllocStrlenPrinter);
+                }
+                else if (argument == "-new")
+                {
+                    addPrinter(new NewPrinter);
+                }
+                else if (argument == "-strcmp")
+                {
+                    addPrinter(new IfStrCmpPrinter);
+                }
+                else if (argument == "-eqArgs")
+                {
+                    addPrinter(new CRTEqualArgsPrinter);
+                }
+                else if (argument == "-sizeof")
+                {
+                    addPrinter(new SizeofPrinter);
+                }
+                else if (argument == "-sizeofMul")
+                {
+                    addPrinter(new SizeofMultPrinter);
+                }
+                else if (argument == "-strlen")
+                {
+                    addPrinter(new StrlenOnePrinter);
+                }
+                else if (argument == "-ptrCmp")
+                {
+                    addPrinter(new PtrCmpPrinter);
+                }
+                else if (argument == "-all")
+                {
+                    addPrinter(new EqualConditionPrinter);
+                    addPrinter(new EqualBinaryPrinter);
+                    addPrinter(new EqualCompoundStmtPrinter);
+                    addPrinter(new MemsetPrinter);
+                    addPrinter(new AllocStrlenPrinter);
+                    addPrinter(new NewPrinter);
+                    addPrinter(new IfStrCmpPrinter);
+                    addPrinter(new CRTEqualArgsPrinter);
+                    addPrinter(new SizeofPrinter);
+                    addPrinter(new SizeofMultPrinter);
+                    addPrinter(new StrlenOnePrinter);
+                    addPrinter(new PtrCmpPrinter);
+                }
+                else
+                {
+                    DiagnosticsEngine &D = CI.getDiagnostics();
+                    unsigned DiagID = D.getCustomDiagID(DiagnosticsEngine::Error, "invalid argument '%0'");
+                    D.Report(DiagID) << argument;
+                    return false;
+                }
             }
             return true;
         }
     private:
+        
         void addPrinter(BasePrinter * printer)
         {
             printer->addToFinder(&finder);

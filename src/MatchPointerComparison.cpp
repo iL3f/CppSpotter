@@ -6,13 +6,21 @@ using namespace clang::ast_matchers;
 static StatementMatcher ptrMatcher = ifStmt( hasCondition( binaryOperator(
                                           hasOperatorName("<"),
                                           hasLHS(ignoringParenImpCasts(declRefExpr(
-                                           to(varDecl(hasType(pointsTo(qualType(anything())))).bind("lhs"))))),
+                                           to(varDecl(hasType(pointsTo(qualType(anything())))))))),
+                                          hasRHS(ignoringParenImpCasts(integerLiteral(equals(0))))
+                                          ))).bind("if");
+
+static StatementMatcher funcMatcher = ifStmt( hasCondition(binaryOperator(
+                                          hasOperatorName("<"),
+                                          hasLHS(callExpr(callee(functionDecl(
+                                                            returns(pointsTo(qualType(anything()))))))),
                                           hasRHS(ignoringParenImpCasts(integerLiteral(equals(0))))
                                           ))).bind("if");
 
 void PtrCmpPrinter::addToFinder(MatchFinder *finder)
 {
     finder->addMatcher(ptrMatcher, this);
+    finder->addMatcher(funcMatcher, this);
 }
 
 void PtrCmpPrinter::run(const MatchFinder::MatchResult &Result)
