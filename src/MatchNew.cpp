@@ -23,7 +23,9 @@ void NewPrinter::run(const MatchFinder::MatchResult &Result)
         // check if one item allocation
         if ( allocType.find("char") != std::string::npos ||
              allocType.find("short") != std::string::npos ||
-             allocType.find("int") != std::string::npos)
+             allocType.find("int") != std::string::npos ||
+             allocType.find("long") != std::string::npos
+            )
         {
             DiagnosticsEngine &dEngine = context->getDiagnostics();
             unsigned diagID = dEngine.getCustomDiagID(DiagnosticsEngine::Warning, "Maybe you mean [] brackets?");

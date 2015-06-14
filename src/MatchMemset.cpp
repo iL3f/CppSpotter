@@ -67,9 +67,9 @@ void MemsetPrinter::run(const MatchFinder::MatchResult &Result)
                 {
                     //impCast->dump();
 
-#define NUM_TYPES 3
-                    const char * names[NUM_TYPES] =  {"char", "short", "int"};
-                    size_t sizes[NUM_TYPES] = {sizeof(char), sizeof(short), sizeof(int)};
+#define NUM_TYPES 4
+                    const char * names[NUM_TYPES] =  {"char", "short", "int", "long"};
+                    size_t sizes[NUM_TYPES] = {sizeof(char), sizeof(short), sizeof(int), sizeof(long)};
                     
                     int i;
                     for (i=0; i<NUM_TYPES; i++)

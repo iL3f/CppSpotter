@@ -29,6 +29,14 @@ namespace
         
         bool ParseArgs(const CompilerInstance &CI, const
                        std::vector<std::string>& args) {
+            if (args.size() == 0)
+            {
+                DiagnosticsEngine &D = CI.getDiagnostics();
+                unsigned DiagID = D.getCustomDiagID(DiagnosticsEngine::Error, "You should set error check flags");
+                D.Report(DiagID);
+                return false;
+            }
+            
             for (auto argument : args)
             {
                 if (argument == "-eqCond")
@@ -67,7 +75,7 @@ namespace
                 {
                     addPrinter(new SizeofPrinter);
                 }
-                else if (argument == "-sizeofMul")
+                else if (argument == "-sizeofMl")
                 {
                     addPrinter(new SizeofMultPrinter);
                 }
