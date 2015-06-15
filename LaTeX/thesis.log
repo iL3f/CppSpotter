@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.10)  15 JUN 2015 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.10)  15 JUN 2015 20:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1380,7 +1380,7 @@ LaTeX Info: Redefining \nameref on input line 18.
 \sixthskip=\skip77
 \picsize=\skip78
 
-<fig/spbspu.png, id=208, 104.5506pt x 93.4692pt>
+<fig/spbspu.png, id=204, 104.5506pt x 93.4692pt>
 File: fig/spbspu.png Graphic file (type png)
  <use fig/spbspu.png>
 Package pdftex.def Info: fig/spbspu.png used on input line 36.
@@ -1529,13 +1529,13 @@ Overfull \hbox (12.00084pt too wide) in paragraph at lines 175--176
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<fig/funcAST.png, id=426, 995.72pt x 808.01875pt>
+<fig/funcAST.png, id=421, 995.72pt x 808.01875pt>
 File: fig/funcAST.png Graphic file (type png)
  <use fig/funcAST.png>
 Package pdftex.def Info: fig/funcAST.png used on input line 197.
 (pdftex.def)             Requested size: 318.67088pt x 258.59595pt.
 
-<fig/mainAST.png, id=428, 513.92pt x 600.2425pt>
+<fig/mainAST.png, id=423, 513.92pt x 600.2425pt>
 File: fig/mainAST.png Graphic file (type png)
  <use fig/mainAST.png>
 Package pdftex.def Info: fig/mainAST.png used on input line 203.
@@ -1620,9 +1620,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 465--468
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 483--487
-[]\T2A/cmr/m/n/10 Как уже бы^^?ло рас^^?смот^^?рен^^?но ра^^?нее, кор^^?нем для
- ис^^?ко^^?мо^^?го
+Underfull \hbox (badness 3281) in paragraph at lines 483--487
+\T2A/cmr/m/n/10 мен^^?та ко^^?да дол^^?жен быть IfStmt обо^^?зна^^?ча^^?ю^^?щий
+ опе^^?ра^^?тор "if".
  []
 
 
@@ -1653,49 +1653,39 @@ Overfull \hbox (53.24113pt too wide) in paragraph at lines 504--505
 
 ) (./chapter03.tex [32] [33
 
-] [34] [35] [36] [37]
-<fig/UML.png, id=720, 492.84125pt x 464.73625pt>
-File: fig/UML.png Graphic file (type png)
- <use fig/UML.png>
-Package pdftex.def Info: fig/UML.png used on input line 247.
-(pdftex.def)             Requested size: 318.67088pt x 300.5149pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38]
-[39 <./fig/UML.png>] [40]
-Overfull \hbox (18.25536pt too wide) in paragraph at lines 301--302
+] [34] [35] [36] [37] [38]
+Overfull \hbox (18.25536pt too wide) in paragraph at lines 289--290
 [][][][][][][][][][][][][][][] 
  []
 
-) (./chapter04.tex [41] [42
+[39]) (./chapter04.tex [40]) (./conclusion.tex [41
 
-]) (./conclusion.tex [43] [44
+] [42
 
 ])
 No file thesis.bbl.
-(./appendix01.tex [45] [46
+(./appendix01.tex [43] [44
 
 ])
 
 Package caption Warning: Unused \captionsetup[table] on input line 18.
 See the caption package documentation for explanation.
 
-[47]
+[45]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AE59BA34EBBAA0FB6227FB71A460ECA9;12719.
+(rerunfilecheck)             Checksum: A7BECE5058A2F022E2E5A5E5F55D44AD;12493.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 26293 strings out of 493117
- 444964 string characters out of 6135433
+ 26282 strings out of 493117
+ 444830 string characters out of 6135433
  548498 words of memory out of 5000000
- 28840 multiletter control sequences out of 15000+600000
+ 28834 multiletter control sequences out of 15000+600000
  13214 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,104p,943b,1931s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1711,10 +1701,10 @@ texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on thesis.pdf (49 pages, 444954 bytes).
+Output written on thesis.pdf (47 pages, 423847 bytes).
 PDF statistics:
- 938 PDF objects out of 1000 (max. 8388607)
- 839 compressed objects within 9 object streams
- 394 named destinations out of 1000 (max. 500000)
- 501 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 920 PDF objects out of 1000 (max. 8388607)
+ 825 compressed objects within 9 object streams
+ 390 named destinations out of 1000 (max. 500000)
+ 488 words of extra memory for PDF output out of 10000 (max. 10000000)
 
