@@ -1,0 +1,20 @@
+static analysis уязвимости http://research.microsoft.com/en-us/um/people/livshits/papers/pdf/thesis.pdf
+
+список анализаторов https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
+
+ошибки PVS http://www.viva64.com/ru/d/0368/
+опен сорс пвс http://www.viva64.com/ru/a/0084/
+
+ошибки коверти http://www.coverity.com/products/code-advisor/
+coverity scan https://scan.coverity.com/faq
+коллайдер coverity http://www.coverity.com/press-releases/cern-chooses-coverity-to-ensure-accuracy-of-large-hadron-collider-software/
+марсоход http://www.huffingtonpost.co.uk/2012/09/27/curiositys-doctors-mars-rover-coverity_n_1919115.html
+
+флинт https://code.facebook.com/posts/729709347050548/under-the-hood-building-and-open-sourcing-flint/
+
+CERT Secure Coding Standards https://www.securecoding.cert.org/confluence/display/seccode/SEI+CERT+Coding+Standards
+кланг чекс http://clang-analyzer.llvm.org/available_checks.html
+
+кланг фичи http://clang.llvm.org/features.html
+
+аст матчер референс http://clang.llvm.org/docs/LibASTMatchersReference.html

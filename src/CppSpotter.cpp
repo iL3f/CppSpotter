@@ -75,7 +75,7 @@ namespace
                 {
                     addPrinter(new SizeofPrinter);
                 }
-                else if (argument == "-sizeofMl")
+                else if (argument == "-sizeofMul")
                 {
                     addPrinter(new SizeofMultPrinter);
                 }
