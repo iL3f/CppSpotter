@@ -132,19 +132,20 @@ TranslationUnitDecl 0x7f8383830ec0 <<invalid sloc>> <invalid sloc>
 ... внутренние объявления clang ...
 |-VarDecl 0x7fc5f98333d0 <ast.c:1:1, col:10> col:5 used gVar 'int' cinit
 | `-IntegerLiteral 0x7fc5f9833428 <col:10> 'int' 0
-|-FunctionDecl 0x7fc5f9833520 <line:3:1, line:10:1> line:3:6 used func 'void (int)'
+|-FunctionDecl 0x7fc5f9833520 <line:3:1, line:10:1> line:3:6 used func 
+'void (int)'
 | |-ParmVarDecl 0x7fc5f9833460 <col:11, col:15> col:15 used arg 'int'
 | `-CompoundStmt 0x7fc5f986fef8 <line:4:1, line:10:1>
 |   |-IfStmt 0x7fc5f9833698 <line:5:2, line:6:6>
 |   | |-<<<NULL>>>
 |   | |-BinaryOperator 0x7fc5f9833628 <line:5:6, col:13> 'int' '=='
 |   | | |-ImplicitCastExpr 0x7fc5f9833610 <col:6> 'int' <LValueToRValue>
-|   | | | `-DeclRefExpr 0x7fc5f98335c8 <col:6> 'int' lvalue ParmVar 0x7fc5f9833460
-'arg' 'int'
+|   | | | `-DeclRefExpr 0x7fc5f98335c8 <col:6> 'int' lvalue ParmVar 
+0x7fc5f9833460 'arg' 'int'
 |   | | `-IntegerLiteral 0x7fc5f98335f0 <col:13> 'int' 0
 |   | |-UnaryOperator 0x7fc5f9833678 <line:6:3, col:6> 'int' postfix '++'
-|   | | `-DeclRefExpr 0x7fc5f9833650 <col:3> 'int' lvalue ParmVar 0x7fc5f9833460
-'arg' 'int'
+|   | | `-DeclRefExpr 0x7fc5f9833650 <col:3> 'int' lvalue ParmVar 
+0x7fc5f9833460 'arg' 'int'
 |   | `-<<<NULL>>>
 |   `-ForStmt 0x7fc5f986feb8 <line:8:2, line:9:7>
 |     |-DeclStmt 0x7fc5f9833758 <line:8:7, col:14>
@@ -153,17 +154,19 @@ TranslationUnitDecl 0x7f8383830ec0 <<invalid sloc>> <invalid sloc>
 |     |-<<<NULL>>>
 |     |-BinaryOperator 0x7fc5f986fe00 <col:16, col:18> 'int' '<'
 |     | |-ImplicitCastExpr 0x7fc5f98337c0 <col:16> 'int' <LValueToRValue>
-|     | | `-DeclRefExpr 0x7fc5f9833770 <col:16> 'int' lvalue Var 0x7fc5f98336e0
- 'i' 'int'
+|     | | `-DeclRefExpr 0x7fc5f9833770 <col:16> 'int' lvalue Var 
+0x7fc5f98336e0 'i' 'int'
 |     | `-ImplicitCastExpr 0x7fc5f98337d8 <col:18> 'int' <LValueToRValue>
-|     |   `-DeclRefExpr 0x7fc5f9833798 <col:18> 'int' lvalue ParmVar 0x7fc5f9833460
- 'arg' 'int'
+|     |   `-DeclRefExpr 0x7fc5f9833798 <col:18> 'int' lvalue ParmVar 
+0x7fc5f9833460 'arg' 'int'
 |     |-UnaryOperator 0x7fc5f986fe50 <col:23, col:24> 'int' postfix '++'
-|     | `-DeclRefExpr 0x7fc5f986fe28 <col:23> 'int' lvalue Var 0x7fc5f98336e0 'i' 'int'
+|     | `-DeclRefExpr 0x7fc5f986fe28 <col:23> 'int' lvalue Var 0x7fc5f98336e0
+ 'i' 'int'
 |     `-UnaryOperator 0x7fc5f986fe98 <line:9:3, col:7> 'int' postfix '++'
 |       `-DeclRefExpr 0x7fc5f986fe70 <col:3> 'int' lvalue Var 0x7fc5f98333d0
  'gVar' 'int'
-`-FunctionDecl 0x7fc5f9870180 <line:12:1, line:17:1> line:12:5 main 'int (int, char **)'
+`-FunctionDecl 0x7fc5f9870180 <line:12:1, line:17:1> line:12:5 main 
+'int (int, char **)'
   |-ParmVarDecl 0x7fc5f986ff30 <col:10, col:14> col:14 argc 'int'
   |-ParmVarDecl 0x7fc5f9870070 <col:20, col:31> col:26 argv 'char **':'char **'
   `-CompoundStmt 0x7fc5f98703e8 <line:13:1, line:17:1>
@@ -171,9 +174,10 @@ TranslationUnitDecl 0x7f8383830ec0 <<invalid sloc>> <invalid sloc>
     | `-VarDecl 0x7fc5f9870240 <col:2, col:12> col:6 used arg 'int' cinit
     |   `-IntegerLiteral 0x7fc5f9870298 <col:12> 'int' 2
     |-CallExpr 0x7fc5f9870360 <line:15:2, col:10> 'void'
-    | |-ImplicitCastExpr 0x7fc5f9870348 <col:2> 'void (*)(int)' <FunctionToPointerDecay>
-    | | `-DeclRefExpr 0x7fc5f98702d0 <col:2> 'void (int)' Function 0x7fc5f9833520
-     'func' 'void (int)'
+    | |-ImplicitCastExpr 0x7fc5f9870348 <col:2> 'void (*)(int)' 
+<FunctionToPointerDecay>
+    | | `-DeclRefExpr 0x7fc5f98702d0 <col:2> 'void (int)' Function 
+0x7fc5f9833520 'func' 'void (int)'
     | `-ImplicitCastExpr 0x7fc5f9870390 <col:7> 'int' <LValueToRValue>
     |   `-DeclRefExpr 0x7fc5f98702f8 <col:7> 'int' lvalue Var 0x7fc5f9870240
 'arg' 'int'
@@ -326,11 +330,13 @@ int main()
 |-<<<NULL>>>
 |-BinaryOperator 0x7fdb75024720 <line:18:6, col:12> 'int' '<'
 | |-ImplicitCastExpr 0x7fdb750246f0 <col:6> 'int *' <LValueToRValue>
-| | `-DeclRefExpr 0x7fdb750246a8 <col:6> 'int *' lvalue Var 0x7fdb750245f0 'ptr' 'int *'
+| | `-DeclRefExpr 0x7fdb750246a8 <col:6> 'int *' lvalue Var 0x7fdb750245f0 
+'ptr' 'int *'
 | `-ImplicitCastExpr 0x7fdb75024708 <col:12> 'int *' <NullToPointer>
 |   `-IntegerLiteral 0x7fdb750246d0 <col:12> 'int' 0
 |-UnaryOperator 0x7fdb75024770 <line:19:3, col:6> 'int *' postfix '++'
-| `-DeclRefExpr 0x7fdb75024748 <col:3> 'int *' lvalue Var 0x7fdb750245f0 'ptr' 'int *'
+| `-DeclRefExpr 0x7fdb75024748 <col:3> 'int *' lvalue Var 0x7fdb750245f0 
+'ptr' 'int *'
 `-<<<NULL>>>
 \end{lstlisting}
 
@@ -364,34 +370,34 @@ class Example:
 public:
 bool VisitIfStmt(IfStmt *s) {
   if (const BinaryOperator *binOP =
-          llvm::dyn_cast<BinaryOperator>(s->getCond())) 
+    llvm::dyn_cast<BinaryOperator>(s->getCond())) 
   {
     if (binOP->getOpcode() == BO_LT) 
     {
       const Expr *LHS = binOP->getLHS();
       if (const ImplicitCastExpr *Cast =
-              llvm::dyn_cast<ImplicitCastExpr>(LHS)) 
+            llvm::dyn_cast<ImplicitCastExpr>(LHS)) 
       {
         LHS = Cast->getSubExpr();
       }
       
       const Expr *RHS = binOP->getRHS();
       if (const ImplicitCastExpr *Cast =
-              llvm::dyn_cast<ImplicitCastExpr>(RHS)) 
+            llvm::dyn_cast<ImplicitCastExpr>(RHS)) 
       {
         RHS = Cast->getSubExpr();
       } 
 
-      if (
-const DeclRefExpr *dRef=llvm::dyn_cast<DeclRefExpr>(LHS) &&
-const IntegerLiteral *intVal = 
-		llvm::dyn_cast<IntegerLiteral>(RHS)) 
+      if (const DeclRefExpr *dRef=
+			llvm::dyn_cast<DeclRefExpr>(LHS) &&
+		  const IntegerLiteral *intVal = 
+			llvm::dyn_cast<IntegerLiteral>(RHS)) 
 	  {
         if (const VarDecl *Var =
-                llvm::dyn_cast<VarDecl>(dRef->getDecl())) 
+        llvm::dyn_cast<VarDecl>(dRef->getDecl())) 
         {
           if (Var->getType()->isPointerType() &&
-              intVal->getValue().getZExtValue() == 0) 
+            intVal->getValue().getZExtValue() == 0) 
           {
             s->dump();  // found
           }
@@ -488,8 +494,9 @@ MatchFinder. Для регистрации обработчика и шабло�
 ifStmt( hasCondition( binaryOperator(
 	hasOperatorName("<"),
 	hasLHS(ignoringParenImpCasts(declRefExpr(
-    to(varDecl(hasType(pointsTo(AnyType))).bind("lhs"))))),
-    hasRHS(ignoringParenImpCasts(integerLiteral(equals(0))))
+    to(varDecl(hasType(pointsTo(AnyType))))))),
+    hasRHS(ignoringParenImpCasts(
+    	integerLiteral(equals(0))))
     ))).bind("if")
 \end{lstlisting}
 
@@ -499,9 +506,10 @@ class Example:
 public MatchFinder::MatchCallback 
 {
 public:
-virtual void run(const MatchFinder::MatchResult &Result) 
+void run(const MatchFinder::MatchResult &Result) 
 {
-const IfStmt *s = Result.Nodes.getNodeAs<clang::IfStmt>("if");
+const IfStmt *s = 
+	Result.Nodes.getNodeAs<clang::IfStmt>("if");
     if (s)
       s->dump();
   }

@@ -286,7 +286,7 @@ if (resources.Find("foo") < 0)
 в исходном коде и в случае нахождения ошибки отвечает за отображение предупреждения. Созданный класс
 должен наследоваться от класса BasePrinter и переопределять функцию
 \begin{lstlisting}
-void addToFinder(ast_matchers::MatchFinder * finder)
+void addToFinder(MatchFinder * finder)
 \end{lstlisting} 
 Эта функция отвечает за регистрацию созданного обработчика.
 	\item Создание AST Matcher для выявления узлов абстрактного синтаксического дерева, потенциально 
