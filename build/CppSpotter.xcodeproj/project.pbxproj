@@ -266,6 +266,7 @@
 					HAVE_CLANG_CONFIG_H,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					/Users/Kolya/Documents/llvm/llvm/include,
 					/Users/Kolya/Documents/llvm/llvm/tools/clang/include,
@@ -300,24 +301,11 @@
 				OTHER_LDFLAGS = (
 					"-dynamiclib",
 					"-Wl,-headerpad_max_install_names",
-					"-lclangFrontend",
-					"-lclangAST",
 					"-lclangASTMatchers",
 					"-lz",
-					"-lLLVMMC",
-					"-lLLVMOption",
-					"-lLLVMSupport",
-					"-lLLVMBitReader",
-					"-lLLVMMCParser",
-					"-lclangAnalysis",
-					"-lclangDriver",
-					"-lclangLex",
-					"-lclangParse",
-					"-lclangSema",
-					"-lclangEdit",
-					"-lclangSerialization",
-					"-lclangBasic",
 					"-lcurses",
+					"-undefined",
+					dynamic_lookup,
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = CppSpotter;
@@ -354,6 +342,7 @@
 					HAVE_CLANG_CONFIG_H,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					/Users/Kolya/Documents/llvm/llvm/include,
 					/Users/Kolya/Documents/llvm/llvm/tools/clang/include,
@@ -396,24 +385,11 @@
 				OTHER_LDFLAGS = (
 					"-dynamiclib",
 					"-Wl,-headerpad_max_install_names",
-					"-lclangFrontend",
-					"-lclangAST",
 					"-lclangASTMatchers",
 					"-lz",
-					"-lLLVMMC",
-					"-lLLVMOption",
-					"-lLLVMSupport",
-					"-lLLVMBitReader",
-					"-lLLVMMCParser",
-					"-lclangAnalysis",
-					"-lclangDriver",
-					"-lclangLex",
-					"-lclangParse",
-					"-lclangSema",
-					"-lclangEdit",
-					"-lclangSerialization",
-					"-lclangBasic",
 					"-lcurses",
+					"-undefined",
+					dynamic_lookup,
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = CppSpotter;
@@ -450,6 +426,7 @@
 					HAVE_CLANG_CONFIG_H,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					/Users/Kolya/Documents/llvm/llvm/include,
 					/Users/Kolya/Documents/llvm/llvm/tools/clang/include,
@@ -488,24 +465,11 @@
 				OTHER_LDFLAGS = (
 					"-dynamiclib",
 					"-Wl,-headerpad_max_install_names",
-					"-lclangFrontend",
-					"-lclangAST",
 					"-lclangASTMatchers",
 					"-lz",
-					"-lLLVMMC",
-					"-lLLVMOption",
-					"-lLLVMSupport",
-					"-lLLVMBitReader",
-					"-lLLVMMCParser",
-					"-lclangAnalysis",
-					"-lclangDriver",
-					"-lclangLex",
-					"-lclangParse",
-					"-lclangSema",
-					"-lclangEdit",
-					"-lclangSerialization",
-					"-lclangBasic",
 					"-lcurses",
+					"-undefined",
+					dynamic_lookup,
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = CppSpotter;
@@ -551,6 +515,7 @@
 					HAVE_CLANG_CONFIG_H,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					/Users/Kolya/Documents/llvm/llvm/include,
 					/Users/Kolya/Documents/llvm/llvm/tools/clang/include,
@@ -593,24 +558,11 @@
 				OTHER_LDFLAGS = (
 					"-dynamiclib",
 					"-Wl,-headerpad_max_install_names",
-					"-lclangFrontend",
-					"-lclangAST",
 					"-lclangASTMatchers",
 					"-lz",
-					"-lLLVMMC",
-					"-lLLVMOption",
-					"-lLLVMSupport",
-					"-lLLVMBitReader",
-					"-lLLVMMCParser",
-					"-lclangAnalysis",
-					"-lclangDriver",
-					"-lclangLex",
-					"-lclangParse",
-					"-lclangSema",
-					"-lclangEdit",
-					"-lclangSerialization",
-					"-lclangBasic",
 					"-lcurses",
+					"-undefined",
+					dynamic_lookup,
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = CppSpotter;
