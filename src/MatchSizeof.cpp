@@ -22,10 +22,21 @@ void SizeofPrinter::run(const MatchFinder::MatchResult &Result)
         if ( !isa<DeclRefExpr>(argEx) && isa<ParenExpr>(argEx))
         {
             const ParenExpr * pEx = dyn_cast<ParenExpr>(argEx);
-            if (pEx &&
-                !isa<DeclRefExpr>(pEx->getSubExpr()) && !isa<ArraySubscriptExpr>(pEx->getSubExpr()))
+            if (const UnaryOperator * unOp = dyn_cast<UnaryOperator>(pEx->getSubExpr()))
             {
-                pEx->dump();
+                if (unOp->getOpcode() == UO_AddrOf || unOp->getOpcode() == UO_Deref)
+                {
+                    //sizeof(*ptr) or sizeof(&var)
+                    return;
+                }
+            }
+            else if (isa<MemberExpr>(pEx->getSubExpr()))
+                return;
+            else if (isa<ParenExpr>(pEx->getSubExpr()))
+                pEx = dyn_cast<ParenExpr>(pEx->getSubExpr());
+            
+            if (!isa<DeclRefExpr>(pEx->getSubExpr()) && !isa<ArraySubscriptExpr>(pEx->getSubExpr()))
+            {
                 DiagnosticsEngine &dEngine = context->getDiagnostics();
                 unsigned diagID = dEngine.getCustomDiagID(DiagnosticsEngine::Warning, "Maybe here mistake in sizeof?");
                 dEngine.Report(szOf->getLocStart(), diagID);

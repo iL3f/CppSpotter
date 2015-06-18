@@ -44,7 +44,7 @@ namespace
         bool ParseArgs(const CompilerInstance &CI, const
                        std::vector<std::string>& args)
         {
-            llvm::errs() << "WELCOME! Starting analysis...\n";
+            //llvm::errs() << "WELCOME! Starting analysis...\n";
             if (args.size() == 0)
             {
                 DiagnosticsEngine &D = CI.getDiagnostics();

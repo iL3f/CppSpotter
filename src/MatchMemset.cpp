@@ -38,7 +38,7 @@ void MemsetPrinter::run(const MatchFinder::MatchResult &Result)
         }
         else
         {
-            intVal = cast<IntegerLiteral>(castEx->getSubExpr());
+            intVal = dyn_cast<IntegerLiteral>(castEx->getSubExpr());
         }
     }
     else
