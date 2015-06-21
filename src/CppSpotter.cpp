@@ -16,44 +16,32 @@ using namespace clang::ast_matchers;
 
 namespace
 {
-    class TestConsumer : public ASTConsumer {
-    public:
-        virtual bool HandleTopLevelDecl(DeclGroupRef DG) {
-            //myPrint("Handle top level");
-            for (DeclGroupRef::iterator i = DG.begin(), e = DG.end(); i != e; ++i) {
-                const Decl *D = *i;
-                if (const NamedDecl *ND = dyn_cast<NamedDecl>(D))
-                    llvm::errs() << "top-level-decl: \"" << ND->getNameAsString() << "\"\n";
-            }
-            
-            return true;
-        }
-    };
-
     class CppSpotterASTAction : public PluginASTAction
     {
         MatchFinder* finder = new MatchFinder;
         std::list<BasePrinter*> printers;
+        std::list<std::string> flags;
     public:
+        CppSpotterASTAction()
+        {
+            flags.push_back("-eqCond");
+            flags.push_back("-eqBin");
+            flags.push_back("-eqStmt");
+            flags.push_back("-memset");
+            flags.push_back("-allocStr");
+            flags.push_back("-new");
+            flags.push_back("-strcmp");
+            flags.push_back("-eqArgs");
+            flags.push_back("-sizeof");
+            flags.push_back("-sizeofMul");
+            flags.push_back("-strlen");
+            flags.push_back("-ptrCmp");
+        }
+        
         virtual clang::ASTConsumer *CreateASTConsumer(CompilerInstance &Compiler,
                                                       llvm::StringRef InFile)
         {
-            return finder->newASTConsumer();
-        }
-        
-        bool ParseArgs(const CompilerInstance &CI, const
-                       std::vector<std::string>& args)
-        {
-            //llvm::errs() << "WELCOME! Starting analysis...\n";
-            if (args.size() == 0)
-            {
-                DiagnosticsEngine &D = CI.getDiagnostics();
-                unsigned DiagID = D.getCustomDiagID(DiagnosticsEngine::Error, "You should set error check flags");
-                D.Report(DiagID);
-                return false;
-            }
-            
-            for (auto argument : args)
+            for (auto argument : flags)
             {
                 if (argument == "-eqCond")
                 {
@@ -103,21 +91,21 @@ namespace
                 {
                     addPrinter(new PtrCmpPrinter);
                 }
-                else if (argument == "-all")
+            }
+            
+            return finder->newASTConsumer();
+        }
+        
+        bool ParseArgs(const CompilerInstance &CI, const
+                       std::vector<std::string>& args)
+        {
+            //llvm::errs() << "WELCOME! Starting analysis...\n";
+            for (auto argument : args)
+            {
+                auto it = std::find(flags.begin(), flags.end(), argument);
+                if (it != flags.end())
                 {
-                    //llvm::errs() << "Add all printers\n";
-                    addPrinter(new EqualConditionPrinter);
-                    addPrinter(new EqualBinaryPrinter);
-                    addPrinter(new EqualCompoundStmtPrinter);
-                    addPrinter(new MemsetPrinter);
-                    addPrinter(new AllocStrlenPrinter);
-                    addPrinter(new NewPrinter);
-                    addPrinter(new IfStrCmpPrinter);
-                    addPrinter(new CRTEqualArgsPrinter);
-                    addPrinter(new SizeofPrinter);
-                    addPrinter(new SizeofMultPrinter);
-                    addPrinter(new StrlenOnePrinter);
-                    addPrinter(new PtrCmpPrinter);
+                    flags.erase(it);
                 }
                 else
                 {
