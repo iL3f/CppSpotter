@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.10)  22 JUN 2015 02:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.10)  22 JUN 2015 04:15
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1389,7 +1389,7 @@ File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \sixthskip=\skip77
 \picsize=\skip78
 
-<fig/spbspu.png, id=204, 104.5506pt x 93.4692pt>
+<fig/spbspu.png, id=221, 104.5506pt x 93.4692pt>
 File: fig/spbspu.png Graphic file (type png)
  <use fig/spbspu.png>
 Package pdftex.def Info: fig/spbspu.png used on input line 48.
@@ -1440,16 +1440,22 @@ LaTeX Font Info:    Try loading font information for U+euex on input line 2.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
-Underfull \hbox (badness 5519) in paragraph at lines 33--33
- [][] [][]\T2A/cmr/m/n/10 Потенциальная ошиб^^?ка при ис^^?поль^^?зо^^?ва^^?нии
- 
+Underfull \hbox (badness 1694) in paragraph at lines 27--27
+ [] []\T2A/cmr/bx/n/10 3.  РАЗ^^?РА^^?БОТ^^?КА МО^^?ДУ^^?ЛЯ РАС^^?ШИ^^?РЕ^^?НИЙ
+ ДЛЯ 
  []
 
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
- [][] [][]\T2A/cmr/m/n/10 Одинаковые ар^^?гу^^?мен^^?ты функ^^?ций 
+Underfull \hbox (badness 5519) in paragraph at lines 35--35
+ [][] [][]\T2A/cmr/m/n/10 Потенциальная ошиб^^?ка при ис^^?поль^^?зо^^?ва^^?нии
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+ [][] [][]\T2A/cmr/m/n/10 Одинаковые ар^^?гу^^?мен^^?ты функ^^?ций strcmp, 
  []
 
 )
@@ -1611,53 +1617,120 @@ Underfull \vbox (badness 2717) has occurred while \output is active []
 
  [24]
 [25]
-Underfull \hbox (badness 1014) in paragraph at lines 325--328
+Underfull \hbox (badness 1014) in paragraph at lines 324--327
 []\T2A/cmr/bx/n/10 void onStartOfTranslationUnit()\T2A/cmr/m/n/10 . В от^^?ли^^
 ?чии от функ^^?ции
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+Underfull \hbox (badness 10000) in paragraph at lines 327--330
 []\T2A/cmr/bx/n/10 void onEndOfTranslationUnit()\T2A/cmr/m/n/10 . Функ^^?ция "v
 oid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+Underfull \hbox (badness 10000) in paragraph at lines 327--330
 \T2A/cmr/m/n/10 onEndOfTranslationUnit()"аналогична ра^^?нее рас^^?смот^^?рен^^
 ?ной
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+Underfull \hbox (badness 10000) in paragraph at lines 327--330
 \T2A/cmr/m/n/10 функ^^?ции "void onStartOfTranslationUnit()"с един^^?ствен^^?ны
 м
  []
 
 [26]
-Underfull \hbox (badness 3281) in paragraph at lines 346--350
+Underfull \hbox (badness 3690) in paragraph at lines 342--344
+\T2A/cmr/m/n/10 ме^^?ра на^^?хож^^?де^^?ния срав^^?не^^?ния ука^^?за^^?те^^?ля 
+и 0 с ис^^?поль^^?зо^^?ва^^?ни^^?ем
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 345--349
 \T2A/cmr/m/n/10 мен^^?та ко^^?да дол^^?жен быть IfStmt обо^^?зна^^?ча^^?ю^^?щий
  опе^^?ра^^?тор "if".
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 346--350
+Underfull \hbox (badness 1360) in paragraph at lines 345--349
 \T2A/cmr/m/n/10 За^^?тем усло^^?ви^^?ем опе^^?ра^^?то^^?ра "if"должен быть опе^
 ^?ра^^?тор срав^^?не^^?ния
  []
 
-[27]) (./chapter03.tex [28] [29
+[27]
+Underfull \hbox (badness 3954) in paragraph at lines 400--406
+[]\T2A/cmr/m/n/10 Так как бы^^?ло при^^?ня^^?то ре^^?ше^^?ния ис^^?поль^^?зо^^?
+вать биб^^?лио^^?те^^?ку
+ []
 
-] [30] [31] [32] [33] [34] [35])
-(./chapter04.tex [36] [37
 
-] [38]) (./conclusion.tex [39] [40
+Underfull \hbox (badness 2573) in paragraph at lines 400--406
+\T2A/cmr/m/n/10 ASTMatcher для на^^?хож^^?де^^?ния фраг^^?мен^^?тов ко^^?да, не
+об^^?хо^^?ди^^?мо со^^?
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 400--406
+\T2A/cmr/m/n/10 здать эк^^?зем^^?пляр клас^^?са \T2A/cmr/m/it/10 MatchFinder\T2
+A/cmr/m/n/10 . У дан^^?но^^?го клас^^?са есть
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 400--406
+\T2A/cmr/m/n/10 ме^^?тод \T2A/cmr/m/it/10 newASTConsumer\T2A/cmr/m/n/10 , ко^^?
+то^^?рый воз^^?вра^^?ща^^?ет эк^^?зем^^?пляр клас^^?са
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 400--406
+\T2A/cmr/m/n/10 ис^^?поль^^?зу^^?ет^^?ся для об^^?хо^^?да аб^^?стракт^^?но^^?го
+ син^^?так^^?си^^?че^^?ско^^?го де^^?ре^^?ва.
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 400--406
+\T2A/cmr/m/n/10 По^^?это^^?му для кор^^?рект^^?ной ра^^?бо^^?ты \T2A/cmr/m/it/1
+0 MatchFinder \T2A/cmr/m/n/10 необ^^?хо^^?ди^^?мо в ме^^?
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 400--406
+\T2A/cmr/m/n/10 то^^?де \T2A/cmr/m/it/10 CreateASTConsumer \T2A/cmr/m/n/10 воз^
+^?вра^^?тить ре^^?зуль^^?тат вы^^?зо^^?ва ме^^?то^^?да
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 407--410
+\T2A/cmr/m/n/10 на^^?зна^^?че^^?ны для пла^^?ги^^?на, необ^^?хо^^?ди^^?мо пе^^?
+ре^^?опре^^?де^^?лить функ^^?цию
+ []
+
+[28]) (./chapter03.tex [29] [30
+
+] [31] [32] [33] [34] [35] [36] [37] [38])
+(./chapter04.tex [39] [40
+
+] [41] [42]) (./conclusion.tex [43] [44
 
 ])
 No file thesis.bbl.
-(./appendix01.tex [41] [42
+(./appendix01.tex [45] [46
 
-])
+]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 10.
+ (./src/CppSpotter.cpp [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+(./src/MatchStrlen.cpp [51]))
 
 Package natbib Warning: There were undefined citations.
 
@@ -1669,24 +1742,24 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[table] on input line 18.
 See the caption package documentation for explanation.
 
-[43]
+[52]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 27D15998405E7469E6FE59F704BFDFFE;12153.
+(rerunfilecheck)             Checksum: CAD9BBB9FF0D61A6ED87F6E3653D478E;13345.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 26736 strings out of 493117
- 450845 string characters out of 6135433
- 594693 words of memory out of 5000000
- 29310 multiletter control sequences out of 15000+600000
- 18589 words of font info for 51 fonts, out of 8000000 for 9000
+ 27114 strings out of 493117
+ 458910 string characters out of 6135433
+ 609935 words of memory out of 5000000
+ 29483 multiletter control sequences out of 15000+600000
+ 19392 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,104p,943b,1901s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,104p,943b,1997s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></
@@ -1697,15 +1770,16 @@ cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/loca
 l/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (45 pages, 393370 bytes).
+ive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on thesis.pdf (54 pages, 436808 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 758 compressed objects within 8 object streams
- 336 named destinations out of 1000 (max. 500000)
- 478 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1136 PDF objects out of 1200 (max. 8388607)
+ 1032 compressed objects within 11 object streams
+ 531 named destinations out of 1000 (max. 500000)
+ 510 words of extra memory for PDF output out of 10000 (max. 10000000)
 
