@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {1.4.2.~}Coverity}{14}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3.~}Flint}{15}{subsection.1.4.3}
 \contentsline {subsection}{\numberline {1.4.4.~}Clang Static Analyzer}{15}{subsection.1.4.4}
-\contentsline {subsection}{\numberline {1.4.5.~}\IeC {\CYRV }\IeC {\cyrery }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyrery }}{16}{subsection.1.4.5}
+\contentsline {section}{\numberline {1.5.~}\IeC {\CYRV }\IeC {\cyrery }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyrery }}{16}{section.1.5}
 \contentsline {chapter}{2.~ \MakeTextUppercase {\IeC {\CYRK }\IeC {\cyro }\IeC {\cyrm }\IeC {\cyrp }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr } clang \IeC {\cyri } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyri } \IeC {\cyrr }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrsh }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya }}}{17}{chapter.2}
 \contentsline {section}{\numberline {2.1.~}\IeC {\CYRV }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }}{17}{section.2.1}
 \contentsline {section}{\numberline {2.2.~}\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyra } \IeC {\cyra }\IeC {\cyrb }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrs }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrs }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrd }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrv }\IeC {\cyra } Clang}{19}{section.2.2}
@@ -44,5 +44,49 @@
 \contentsline {section}{\numberline {3.5.~}\IeC {\CYRV }\IeC {\cyrery }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyrery }}{39}{section.3.5}
 \contentsline {chapter}{4.~ \MakeTextUppercase {\IeC {\CYRT }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrr }\IeC {\cyra }\IeC {\cyrz }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya }}}{41}{chapter.4}
 \contentsline {section}{\numberline {4.1.~}\IeC {\CYRT }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }}{41}{section.4.1}
-\contentsline {chapter}{\CYRZ \CYRA \CYRK \CYRL \CYRYU \CYRCH \CYRE \CYRN \CYRI \CYRE }{45}{chapter*.10}
-\contentsline {chapter}{\CYRP \CYRR \CYRI \CYRL \CYRO \CYRZH \CYRE \CYRN \CYRI \CYRE ~\CYRA .~ \MakeTextUppercase {\IeC {\CYRL }\IeC {\CYRI }\IeC {\CYRS }\IeC {\CYRT }\IeC {\CYRI }\IeC {\CYRN }\IeC {\CYRG }\IeC {\CYRI }}}{47}{appendix.A}
+\contentsline {subsection}{\numberline {4.1.1.~}\IeC {\CYRT }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyro }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyre } \IeC {\cyrt }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrery }\IeC {\cyrh } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrm }}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2.~}\IeC {\CYRT }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrr }\IeC {\cyre }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrh }}{43}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2.~}\IeC {\CYRV }\IeC {\cyrery }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyrery }}{46}{section.4.2}
+\contentsline {chapter}{\CYRZ \CYRA \CYRK \CYRL \CYRYU \CYRCH \CYRE \CYRN \CYRI \CYRE }{47}{chapter*.15}
+\contentsline {chapter}{\CYRS \CYRP \CYRI \CYRS \CYRO \CYRK \ \CYRI \CYRS \CYRP \CYRO \CYRL \CYRSFTSN \CYRZ \CYRO \CYRV \CYRA \CYRN \CYRN \CYRERY \CYRH \ \CYRI \CYRS \CYRT \CYRO \CYRCH \CYRN \CYRI \CYRK \CYRO \CYRV \markboth {\MakeUppercase {\CYRS \CYRP \CYRI \CYRS \CYRO \CYRK \ \CYRI \CYRS \CYRP \CYRO \CYRL \CYRSFTSN \CYRZ \CYRO \CYRV \CYRA \CYRN \CYRN \CYRERY \CYRH \ \CYRI \CYRS \CYRT \CYRO \CYRCH \CYRN \CYRI \CYRK \CYRO \CYRV }}{\MakeUppercase {\CYRS \CYRP \CYRI \CYRS \CYRO \CYRK \ \CYRI \CYRS \CYRP \CYRO \CYRL \CYRSFTSN \CYRZ \CYRO \CYRV \CYRA \CYRN \CYRN \CYRERY \CYRH \ \CYRI \CYRS \CYRT \CYRO \CYRCH \CYRN \CYRI \CYRK \CYRO \CYRV }}}{49}{chapter*.17}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {russian}
+\contentsline {chapter}{\CYRP \CYRR \CYRI \CYRL \CYRO \CYRZH \CYRE \CYRN \CYRI \CYRE ~\CYRA .~ \MakeTextUppercase {\IeC {\CYRL }\IeC {\CYRI }\IeC {\CYRS }\IeC {\CYRT }\IeC {\CYRI }\IeC {\CYRN }\IeC {\CYRG }\IeC {\CYRI }}}{51}{appendix.A}

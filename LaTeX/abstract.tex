@@ -17,7 +17,7 @@ Clang Static Analyzer. Также проведен анализ абстракт
 соответствующего заданному шаблону вызывается обработчик для последующего анализа.
 В модуль расширения были добавлены проверки, которые отсутсвуют в анализаторе Clang Static Analyzer, но
 присутствуют в PVS-Studio, Coverity и Flint. В ходе тестирования были выявленные ошибки первого и
-второго рода. 
+второго рода, а также проведено тестирование разработанного модуля на проектах с открытым исходным кодом. 
 }
 
 \keywordsen{
@@ -25,5 +25,14 @@ Clang Static Analyzer. Также проведен анализ абстракт
 }
 
 \abstractcontenten{
-\blindtext
+The aim of this work is development of static checkings module for clang compiler.
+
+This study examines the source code analysis, as well as advantages and disadvantages of static analysis tools. 
+This paper is focused on clang compiler plugin development. This module is a dynamic library 
+which can be connected to compiler using special flags. The AST-matches library is used to 
+identify suspicious code fragments. This library allows to make templates of the Clang abstract 
+syntax tree . When the code snippet corresponding to the specified template is found, the handler 
+is invoked for subsequent analysis.
+Some checkings, which are missing in the Clang Static Analyzer module, but can be found in 
+the PVS-Studio, Coverity and Flint,  are added in this expansion.
 }

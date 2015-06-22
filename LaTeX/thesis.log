@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.10)  22 JUN 2015 04:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.10)  22 JUN 2015 22:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1389,7 +1389,7 @@ File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \sixthskip=\skip77
 \picsize=\skip78
 
-<fig/spbspu.png, id=221, 104.5506pt x 93.4692pt>
+<fig/spbspu.png, id=237, 104.5506pt x 93.4692pt>
 File: fig/spbspu.png Graphic file (type png)
  <use fig/spbspu.png>
 Package pdftex.def Info: fig/spbspu.png used on input line 48.
@@ -1417,12 +1417,7 @@ l.53 \makeblankpage
 ] (./abstract.tex) [3
 
 
-]
-
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 58.
-
-[4
+] [4
 
 ] (./thesis.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
@@ -1470,15 +1465,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
 Writing nomenclature file thesis.nlo
 No file thesis.nls.
 (./introduction.tex
-
-Package natbib Warning: Citation `therac' on page 7 undefined on input line 10.
-
-
-
-Package natbib Warning: Citation `ariane' on page 7 undefined on input line 11.
-
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -1488,79 +1476,16 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 
 ])
-(./chapter01.tex [8]
+(./chapter01.tex [8] [9
 
-Package natbib Warning: Citation `sdWest' on page 9 undefined on input line 41.
-
-
-
-Package natbib Warning: Citation `codeAssist' on page 9 undefined on input line
- 46.
-
-[9
-
-] [10] [11]
-
-Package natbib Warning: Citation `analysWiki' on page 12 undefined on input lin
-e 136.
-
-[12]
-
-Package natbib Warning: Citation `pvs' on page 13 undefined on input line 147.
-
-
-Package natbib Warning: Citation `pvsopen' on page 13 undefined on input line 1
-67.
-
-[13]
-
-Package natbib Warning: Citation `covall' on page 14 undefined on input line 18
-9.
-
-
-Package natbib Warning: Citation `covScan' on page 14 undefined on input line 1
-95.
-
-
-Package natbib Warning: Citation `covCern' on page 14 undefined on input line 1
-98.
-
-
-Package natbib Warning: Citation `covCur' on page 14 undefined on input line 20
-0.
-
-[14]
-
-Package natbib Warning: Citation `flintGit' on page 15 undefined on input line 
-203.
-
-
-Package natbib Warning: Citation `flintErr' on page 15 undefined on input line 
-215.
-
-[15]
-
-Package natbib Warning: Citation `clCheck' on page 16 undefined on input line 2
-44.
-
-) (./chapter02.tex [16]
-
-Package natbib Warning: Citation `clang' on page 17 undefined on input line 8.
-
-
-Package natbib Warning: Citation `llvm' on page 17 undefined on input line 9.
-
-[17
+] [10] [11] [12] [13] [14] [15]) (./chapter02.tex
+[16] [17
 
 ]
 Underfull \hbox (badness 1694) in paragraph at lines 47--48
 []\T2A/cmr/m/n/10 ��������� ���^^?��^^?��^^?���^^?��� ��^^?����^^?���^^?��� (��
 ^^?���^^?��^^?����,
  []
-
-
-Package natbib Warning: Citation `clangFea' on page 18 undefined on input line 
-60.
 
 [18]
 Underfull \hbox (badness 1297) in paragraph at lines 88--94
@@ -1647,15 +1572,9 @@ Underfull \hbox (badness 3690) in paragraph at lines 342--344
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 345--349
-\T2A/cmr/m/n/10 ���^^?�� ��^^?�� ���^^?��� ���� IfStmt ���^^?���^^?��^^?�^^?���
- ���^^?��^^?��� "if".
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 345--349
-\T2A/cmr/m/n/10 ��^^?��� ����^^?��^^?�� ���^^?��^^?��^^?�� "if"������ ���� ���^
-^?��^^?��� ����^^?��^^?���
+Underfull \hbox (badness 1789) in paragraph at lines 345--349
+\T2A/cmr/m/n/10 ��� ����^^?��^^?�� ���^^?��^^?��^^?�� <<if>> ���^^?��� ���� ���
+^^?��^^?��� ����^^?��^^?���
  []
 
 [27]
@@ -1711,75 +1630,1059 @@ Underfull \hbox (badness 5331) in paragraph at lines 407--410
 ] [31] [32] [33] [34] [35] [36] [37] [38])
 (./chapter04.tex [39] [40
 
-] [41] [42]) (./conclusion.tex [43] [44
+] [41] [42] [43]
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
+\T2A/cmr/m/n/10 �������������� ��^^?��^^?��^^?�� �� ��^^?��^^?��^^?���
+ []
 
-])
-No file thesis.bbl.
-(./appendix01.tex [45] [46
+[44]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./conclusion.tex [45] [46]) (./thesis.bbl [47
+
+] [48
+
+]
+
+! LaTeX Error: Command \CYRS unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 С
+       ообщения PVS-Studio.
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 Со
+         общения PVS-Studio.
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 Соо
+           бщения PVS-Studio.
+? 
+
+! LaTeX Error: Command \cyrb unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 Сооб
+             щения PVS-Studio.
+? 
+
+! LaTeX Error: Command \cyrshch unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 Сообщ
+               ения PVS-Studio.
+? 
+
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 Сообще
+                 ния PVS-Studio.
+? 
+
+! LaTeX Error: Command \cyrn unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 Сообщен
+                   ия PVS-Studio.
+? 
+
+! LaTeX Error: Command \cyri unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 Сообщени
+                     я PVS-Studio.
+? 
+
+! LaTeX Error: Command \cyrya unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 Сообщения
+                        PVS-Studio.
+? 
+
+! LaTeX Error: Command \CYRO unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 О
+       бновляемый список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrb unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Об
+         новляемый список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrn unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обн
+           овляемый список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обно
+             вляемый список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrv unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обнов
+               ляемый список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrl unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновл
+                 яемый список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrya unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновля
+                   емый список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляе
+                     мый список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrm unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляем
+                       ый список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrery unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемы
+                         й список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrishrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый
+                            список статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrs unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый с
+                              писок статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrp unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый сп
+                                исок статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyri unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый спи
+                                  сок статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrs unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый спис
+                                    ок статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый списо
+                                      к статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrk unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый список
+                                         статей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrs unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый список с
+                                           татей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый список ст
+                                             атей, в которых мы
+? 
+
+! LaTeX Error: Command \cyra unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый список ста
+                                               тей, в которых мы
+? 
+
+! LaTeX Error: Command \cyrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 Обновляемый список стат
+                                                 ей, в которых мы
+? 
+
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...новляемый список стате
+                                                  й, в которых мы
+? 
+
+! LaTeX Error: Command \cyrishrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...овляемый список статей
+                                                  , в которых мы
+? 
+
+! LaTeX Error: Command \cyrv unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...ляемый список статей, в
+                                                   которых мы
+? 
+
+! LaTeX Error: Command \cyrk unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...�емый список статей, в к
+                                                  оторых мы
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...�мый список статей, в ко
+                                                  торых мы
+? 
+
+! LaTeX Error: Command \cyrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...�ый список статей, в кот
+                                                  орых мы
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...�й список статей, в кото
+                                                  рых мы
+? 
+
+! LaTeX Error: Command \cyrr unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...� список статей, в котор
+                                                  ых мы
+? 
+
+! LaTeX Error: Command \cyrery unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...список статей, в которы
+                                                  х мы
+? 
+
+! LaTeX Error: Command \cyrh unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...писок статей, в которых
+                                                   мы
+? 
+
+! LaTeX Error: Command \cyrm unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...�сок статей, в которых м
+                                                  ы
+? 
+
+! LaTeX Error: Command \cyrery unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...�ок статей, в которых мы
+                                                  
+? 
+
+! LaTeX Error: Command \cyrr unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   р
+         ассказываем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyra unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   ра
+           ссказываем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyrs unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рас
+             сказываем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyrs unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   расс
+               казываем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyrk unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   расск
+                 азываем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyra unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   расска
+                   зываем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyrz unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказ
+                     ываем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyrery unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказы
+                       ваем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyrv unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказыв
+                         аем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyra unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказыва
+                           ем об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказывае
+                             м об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyrm unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказываем
+                                об ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказываем о
+                                  б ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyrb unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказываем об
+                                     ошибках, найденных с
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказываем об о
+                                       шибках, найденных с
+? 
+
+! LaTeX Error: Command \cyrsh unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказываем об ош
+                                         ибках, найденных с
+? 
+
+! LaTeX Error: Command \cyri unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказываем об оши
+                                           бках, найденных с
+? 
+
+! LaTeX Error: Command \cyrb unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказываем об ошиб
+                                             ках, найденных с
+? 
+
+! LaTeX Error: Command \cyrk unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказываем об ошибк
+                                               ах, найденных с
+? 
+
+! LaTeX Error: Command \cyra unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46   рассказываем об ошибка
+                                                 х, найденных с
+? 
+
+! LaTeX Error: Command \cyrh unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...ассказываем об ошибках
+                                                  , найденных с
+? 
+
+! LaTeX Error: Command \cyrn unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...сказываем об ошибках, н
+                                                  айденных с
+? 
+
+! LaTeX Error: Command \cyra unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...казываем об ошибках, на
+                                                  йденных с
+? 
+
+! LaTeX Error: Command \cyrishrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...азываем об ошибках, най
+                                                  денных с
+? 
+
+! LaTeX Error: Command \cyrd unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...зываем об ошибках, найд
+                                                  енных с
+? 
+
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...ываем об ошибках, найде
+                                                  нных с
+? 
+
+! LaTeX Error: Command \cyrn unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...ваем об ошибках, найден
+                                                  ных с
+? 
+
+! LaTeX Error: Command \cyrn unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...аем об ошибках, найденн
+                                                  ых с
+? 
+
+! LaTeX Error: Command \cyrery unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...ем об ошибках, найденны
+                                                  х с
+? 
+
+! LaTeX Error: Command \cyrh unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...м об ошибках, найденных
+                                                   с
+? 
+
+! LaTeX Error: Command \cyrs unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...об ошибках, найденных с
+                                                  
+? 
+
+! LaTeX Error: Command \cyrp unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   п
+         омощью PVS-Studio в открытых проектах.
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   по
+           мощью PVS-Studio в открытых проектах.
+? 
+
+! LaTeX Error: Command \cyrm unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   пом
+             ощью PVS-Studio в открытых проектах.
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помо
+               щью PVS-Studio в открытых проектах.
+? 
+
+! LaTeX Error: Command \cyrshch unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощ
+                 ью PVS-Studio в открытых проектах.
+? 
+
+! LaTeX Error: Command \cyrsftsn unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощь
+                   ю PVS-Studio в открытых проектах.
+? 
+
+! LaTeX Error: Command \cyryu unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощью
+                      PVS-Studio в открытых проектах.
+? 
+
+! LaTeX Error: Command \cyrv unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощью PVS-Studio в
+                                    открытых проектах.
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощью PVS-Studio в о
+                                      ткрытых проектах.
+? 
+
+! LaTeX Error: Command \cyrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощью PVS-Studio в от
+                                        крытых проектах.
+? 
+
+! LaTeX Error: Command \cyrk unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощью PVS-Studio в отк
+                                          рытых проектах.
+? 
+
+! LaTeX Error: Command \cyrr unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощью PVS-Studio в откр
+                                            ытых проектах.
+? 
+
+! LaTeX Error: Command \cyrery unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощью PVS-Studio в откры
+                                              тых проектах.
+? 
+
+! LaTeX Error: Command \cyrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощью PVS-Studio в открыт
+                                                ых проектах.
+? 
+
+! LaTeX Error: Command \cyrery unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   помощью PVS-Studio в открыты
+                                                  х проектах.
+? 
+
+! LaTeX Error: Command \cyrh unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...�мощью PVS-Studio в открытых
+                                                   проектах.
+? 
+
+! LaTeX Error: Command \cyrp unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...ощью PVS-Studio в открытых п
+                                                  роектах.
+? 
+
+! LaTeX Error: Command \cyrr unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...щью PVS-Studio в открытых пр
+                                                  оектах.
+? 
+
+! LaTeX Error: Command \cyro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...ью PVS-Studio в открытых про
+                                                  ектах.
+? 
+
+! LaTeX Error: Command \cyre unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...ю PVS-Studio в открытых прое
+                                                  ктах.
+? 
+
+! LaTeX Error: Command \cyrk unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ... PVS-Studio в открытых проек
+                                                  тах.
+? 
+
+! LaTeX Error: Command \cyrt unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...VS-Studio в открытых проект
+                                                  ах.
+? 
+
+! LaTeX Error: Command \cyra unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...-Studio в открытых проекта
+                                                  х.
+? 
+
+! LaTeX Error: Command \cyrh unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...tudio в открытых проектах
+                                                  .
+? 
+) (./appendix01.tex [49] [50
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 10.
- (./src/CppSpotter.cpp [47]
+ (./src/CppSpotter.cpp [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49])
+ [53])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-(./src/MatchStrlen.cpp [51]))
-
-Package natbib Warning: There were undefined citations.
-
+ [54]
+(./src/MatchStrlen.cpp [55]))
 
 Package caption Warning: Unused \captionsetup[figure] on input line 18.
 See the caption package documentation for explanation.
 
-
-Package caption Warning: Unused \captionsetup[table] on input line 18.
-See the caption package documentation for explanation.
-
-[52]
+[56]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: CAD9BBB9FF0D61A6ED87F6E3653D478E;13345.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 08CE22FBA17A9D28341AB72D390AC17E;14584
+(rerunfilecheck)             After:  5730441947581C9554BCC128BF4D4C48;14566.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 27114 strings out of 493117
- 458910 string characters out of 6135433
- 609935 words of memory out of 5000000
- 29483 multiletter control sequences out of 15000+600000
+ 27343 strings out of 493117
+ 461620 string characters out of 6135433
+ 610594 words of memory out of 5000000
+ 29646 multiletter control sequences out of 15000+600000
  19392 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,104p,943b,1997s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on thesis.pdf (54 pages, 436808 bytes).
+pdfTeX warning (dest): name{subsection.1.4.5} has been referenced but does no
+t exist, replaced by a fixed one
+
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on thesis.pdf (58 pages, 479805 bytes).
 PDF statistics:
- 1136 PDF objects out of 1200 (max. 8388607)
- 1032 compressed objects within 11 object streams
- 531 named destinations out of 1000 (max. 500000)
- 510 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1271 PDF objects out of 1440 (max. 8388607)
+ 1161 compressed objects within 12 object streams
+ 595 named destinations out of 1000 (max. 500000)
+ 542 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,101 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+\ProvideTextCommandDefault{\cyrdash}{\hbox to.8em{--\hss--}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em\fi
+\cyrdash\hskip.2em\ignorespaces}
+
+\bibitem{therac}
+\selectlanguageifdefined{english}
+\BibEmph{N.~Leveson~C.~Turner}. An Investigation of the Therac-25 Accidents.
+  \BibDash
+\newblock IEEE Computer, 1993. \BibDash
+\newblock Vol.~26.
+
+\bibitem{ariane}
+\selectlanguageifdefined{english}
+Ariane 5: Who Dunnit? \BibDash
+\newblock Software, IEEE, 1997. \BibDash
+\newblock Vol.~14.
+
+\bibitem{sdWest}
+\selectlanguageifdefined{english}
+Why Your Code Sucks.
+
+\bibitem{codeAssist}
+\selectlanguageifdefined{english}
+CodingAssistant-Clang.
+
+\bibitem{analysWiki}
+\selectlanguageifdefined{english}
+List of tools for static code analysis.
+
+\bibitem{pvs}
+\selectlanguageifdefined{english}
+Сообщения PVS-Studio.
+
+\bibitem{pvsopen}
+\selectlanguageifdefined{english}
+Обновляемый список статей, в которых мы
+  рассказываем об ошибках, найденных с
+  помощью PVS-Studio в открытых проектах.
+
+\bibitem{covall}
+\selectlanguageifdefined{english}
+Coverity Code Advisor.
+
+\bibitem{covScan}
+\selectlanguageifdefined{english}
+Coverity Scan - Frequently Asked Questions (FAQ).
+
+\bibitem{covCern}
+\selectlanguageifdefined{english}
+CERN Chooses Coverity to Ensure Accuracy of Large Hadron Collider Software.
+
+\bibitem{covCur}
+\selectlanguageifdefined{english}
+Coverity: Mars Rover Curiosity's 'Space Doctors' On Bug Hunting In Space.
+
+\bibitem{flintGit}
+\selectlanguageifdefined{english}
+facebook/flint.
+
+\bibitem{flintErr}
+\selectlanguageifdefined{english}
+Under the Hood: Building and open-sourcing flint.
+
+\bibitem{clCheck}
+\selectlanguageifdefined{english}
+Available Checkers.
+
+\bibitem{clang}
+\selectlanguageifdefined{english}
+"clang" C language family frontend for LLVM.
+
+\bibitem{llvm}
+\selectlanguageifdefined{english}
+The LLVM Compiler Infrastructure Project.
+
+\bibitem{clangFea}
+\selectlanguageifdefined{english}
+Clang - Features and Goals.
+
+\bibitem{curl}
+\selectlanguageifdefined{english}
+cURL.
+
+\bibitem{mtr}
+\selectlanguageifdefined{english}
+MTR.
+
+\bibitem{irssi}
+\selectlanguageifdefined{english}
+irssi - The client of the future.
+
+\end{thebibliography}
