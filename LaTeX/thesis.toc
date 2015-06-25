@@ -88,5 +88,7 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
+\select@language {english}
+\select@language {english}
 \select@language {russian}
 \contentsline {chapter}{\CYRP \CYRR \CYRI \CYRL \CYRO \CYRZH \CYRE \CYRN \CYRI \CYRE ~\CYRA .~ \MakeTextUppercase {\IeC {\CYRL }\IeC {\CYRI }\IeC {\CYRS }\IeC {\CYRT }\IeC {\CYRI }\IeC {\CYRN }\IeC {\CYRG }\IeC {\CYRI }}}{51}{appendix.A}

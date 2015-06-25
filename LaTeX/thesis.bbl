@@ -86,6 +86,10 @@ The LLVM Compiler Infrastructure Project.
 \selectlanguageifdefined{english}
 Clang - Features and Goals.
 
+\bibitem{git}
+\selectlanguageifdefined{english}
+CppSpotter.
+
 \bibitem{curl}
 \selectlanguageifdefined{english}
 cURL.
